@@ -2,10 +2,11 @@ package dao
 
 import (
 	"fmt"
-	"github.com/roullper-dev/brc-rpc/utils"
 	"time"
 
-	"github.com/roullper-dev/brc-rpc/resource/db"
+	"github.com/rolluper-dev/brc-rpc/utils"
+
+	"github.com/rolluper-dev/brc-rpc/resource/db"
 )
 
 type BRC20UserBalance struct {

@@ -3,7 +3,7 @@ package router
 import (
 	"github.com/gin-gonic/gin"
 
-	"github.com/roullper-dev/brc-rpc/controller"
+	"github.com/rolluper-dev/brc-rpc/controller"
 )
 
 const (

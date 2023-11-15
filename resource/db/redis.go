@@ -2,10 +2,11 @@ package db
 
 import (
 	"fmt"
-	"github.com/go-redis/redis"
-	"github.com/roullper-dev/brc-rpc/constant"
 	"log"
 	"time"
+
+	"github.com/go-redis/redis"
+	"github.com/rolluper-dev/brc-rpc/constant"
 )
 
 var (

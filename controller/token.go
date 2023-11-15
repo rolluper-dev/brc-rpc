@@ -2,11 +2,11 @@ package controller
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/roullper-dev/brc-rpc/constant"
-	"github.com/roullper-dev/brc-rpc/entity"
-	"github.com/roullper-dev/brc-rpc/logic"
-	"github.com/roullper-dev/brc-rpc/resp"
-	"github.com/roullper-dev/brc-rpc/utils"
+	"github.com/rolluper-dev/brc-rpc/constant"
+	"github.com/rolluper-dev/brc-rpc/entity"
+	"github.com/rolluper-dev/brc-rpc/logic"
+	"github.com/rolluper-dev/brc-rpc/resp"
+	"github.com/rolluper-dev/brc-rpc/utils"
 )
 
 func GetToken(c *gin.Context) {

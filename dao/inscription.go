@@ -3,8 +3,8 @@ package dao
 import (
 	"time"
 
-	"github.com/roullper-dev/brc-rpc/resource/db"
-	"github.com/roullper-dev/brc-rpc/utils"
+	"github.com/rolluper-dev/brc-rpc/resource/db"
+	"github.com/rolluper-dev/brc-rpc/utils"
 )
 
 type Inscription struct {

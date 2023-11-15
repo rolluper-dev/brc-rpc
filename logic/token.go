@@ -3,15 +3,16 @@ package logic
 import (
 	"errors"
 	"fmt"
-	"github.com/roullper-dev/brc-rpc/constant"
-	"github.com/roullper-dev/brc-rpc/utils"
-	"gorm.io/gorm"
 	"strconv"
 
-	"github.com/roullper-dev/brc-rpc/dao"
-	"github.com/roullper-dev/brc-rpc/entity"
-	"github.com/roullper-dev/brc-rpc/resource/log"
-	"github.com/roullper-dev/brc-rpc/resp"
+	"github.com/rolluper-dev/brc-rpc/constant"
+	"github.com/rolluper-dev/brc-rpc/utils"
+	"gorm.io/gorm"
+
+	"github.com/rolluper-dev/brc-rpc/dao"
+	"github.com/rolluper-dev/brc-rpc/entity"
+	"github.com/rolluper-dev/brc-rpc/resource/log"
+	"github.com/rolluper-dev/brc-rpc/resp"
 )
 
 func GetToken(tick string) (*entity.GetTokenResponse, int) {

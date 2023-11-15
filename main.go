@@ -8,10 +8,10 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/spf13/viper"
 
-	"github.com/roullper-dev/brc-rpc/config"
-	"github.com/roullper-dev/brc-rpc/resource/db"
-	"github.com/roullper-dev/brc-rpc/resource/log"
-	"github.com/roullper-dev/brc-rpc/router"
+	"github.com/rolluper-dev/brc-rpc/config"
+	"github.com/rolluper-dev/brc-rpc/resource/db"
+	"github.com/rolluper-dev/brc-rpc/resource/log"
+	"github.com/rolluper-dev/brc-rpc/router"
 )
 
 func main() {

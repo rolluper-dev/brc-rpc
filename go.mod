@@ -1,4 +1,4 @@
-module github.com/roullper-dev/brc-rpc
+module github.com/rolluper-dev/brc-rpc
 
 go 1.19
 

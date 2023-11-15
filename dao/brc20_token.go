@@ -1,9 +1,10 @@
 package dao
 
 import (
-	"github.com/roullper-dev/brc-rpc/resource/db"
-	"github.com/roullper-dev/brc-rpc/utils"
 	"time"
+
+	"github.com/rolluper-dev/brc-rpc/resource/db"
+	"github.com/rolluper-dev/brc-rpc/utils"
 )
 
 type BRC20Token struct {
